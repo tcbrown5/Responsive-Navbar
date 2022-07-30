@@ -7,7 +7,7 @@
 }
 
 .bg-img {
-  background-image: url("images/R.png");
+  background-image: url("pictures/server1.jpg");
   background-position: center;
   background-size: cover;
   height: 1000px;
@@ -100,4 +100,10 @@ body {
   .wrapper {
     width: 1280px;
   }
+}
+
+input{
+  border:black;
+  border: 1px solid;
+  border-radius: 3px;
 }
