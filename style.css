@@ -132,12 +132,27 @@ body {
     display: none;
   }
   .pricing .price-table {
-    width: 45%;
+    width: 128px;
+    background-image: url("pictures/star.png");
+    border: navy;
+    border-radius: 3px;
+    padding: 40px;
+    height: 128px;
+    text-align:center;
 }
 }
+
+.price-table:hover{
+font-weight: bold;
+background-image: url("pictures/fireworks.png");
+background-size: 128px;
+aspect-ratio: 1/1;
+
+}
+
+
 .pricing {
-  color:#c7c8cc;
-  background-color: black;
+  
 }
 
 @media (min-width: 1280px) {
@@ -158,8 +173,8 @@ input{
 }
 .wrapper {
   width: 50%;
-  margin-right: auto;
-  margin-left: auto;
+   margin-right: auto;
+  margin-left: auto; 
   padding: 2rem 1.5rem;
 }
 .sub {
@@ -218,6 +233,11 @@ input{
   height: 3rem;
 }
 
+.cta-btn-icon:hover {
+  stroke-width: 3;
+}
+
+
 .cta {
   display: flex;
   flex-direction: column;
@@ -227,7 +247,7 @@ input{
 
   height: 48rem;
 
-  background-image: url('pictures/server2.jpg');
+  background-image: url('pictures/People.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -242,7 +262,7 @@ input{
 .services .card {
   cursor: pointer;
 
-  flex: 1 0 auto;
+  /* flex: 1 0 auto; */
 
   margin: 2rem;
   padding: 2rem;
@@ -284,7 +304,7 @@ input{
 }
 
 .contact form {
-  display: flex;
+  display: block;
   flex-direction: column;
   gap: 0.5rem;
   justify-content: space-between;
