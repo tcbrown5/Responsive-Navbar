@@ -171,6 +171,10 @@ input{
   border: #c7c8cc;
   border: 5px;
 }
+
+.hero{
+  font-size: 20px;
+}
 .wrapper {
   width: 50%;
    margin-right: auto;
